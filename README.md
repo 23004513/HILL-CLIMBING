@@ -1,6 +1,6 @@
 <h1>ExpNo 5 : Implement Simple Hill Climbing Algorithm</h1> 
-<h3>Name: N.Navya Sree      </h3>
-<h3>Register Number: 212223040138            </h3>
+<h3>Name: N.NAVYA SREE        </h3>
+<h3>Register Number: 212223040138           </h3>
 <H3>Aim:</H3>
 <p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
 <h2> Theory: </h2>
@@ -41,7 +41,7 @@ Feedback is provided in terms of heuristic function
 <hr>
 
 <h2>Program :</h2>
-```
+<pre><code>
 import random
 import string
 def generate_random_solution(answer):
@@ -74,10 +74,8 @@ def SimpleHillClimbing():
             best = new_solution
             best_score = score
 SimpleHillClimbing()
-```
-![image](https://github.com/user-attachments/assets/0b89359d-685f-4a7c-8a27-598bec756659)
-
-
+</code></pre>
+<image src="image.png"></image>
 <h2>Sample Input and Output</h2>
 <h2>Sample String:</h2> Artificial Intelligence
 <h2>Output:</h2>
@@ -100,10 +98,8 @@ Score: 1  Solution :  Artificial Intelligencf<br>
 Score: 0  Solution :  Artificial Intelligence<br>
 
 <h2>OUTPUT :</h2>
-![image](https://github.com/user-attachments/assets/f775d1e4-e4da-42f2-8882-65c013803d90)
-![image](https://github.com/user-attachments/assets/7fce3ee1-305b-498e-8170-e198f1540283)
-
-
+<image src="image-1.png"></image>
+<image src="image-2.png"></image>
 <h2>RESULT :</h2>
 
 We have sucessfully implemented Simple Hill Climbing Algorithm and generated a String by Mutating a Single Character at each iteration optimizing the string through fitness evaluations until the target string was reached.
